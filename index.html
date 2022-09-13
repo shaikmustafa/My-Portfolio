@@ -4,9 +4,236 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Netflix page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        background-image: url(../../Public/Images/Netflix.jpg);
+        background-size: cover;
+        color: white;
+      }
+      .shade-background {
+        height: 768px;
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+      .brand-name {
+        font-size: 28px;
+        font-weight: bold;
+        color: red;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+      }
+      .login-group {
+        display: flex;
+      }
+      select {
+        margin-right: 20px;
+      }
+      section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 400px;
+      }
+      h1 {
+        width: 550px;
+        font-size: 45px;
+      }
+      .inter-page {
+        height: 500px;
+        background-color: black;
+        color: white;
+        border-top: 5px solid lightslategray;
+        padding: 50px;
+      }
+      .inner-content {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        align-items: center;
+      }
+      .bottom {
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+        height: 250px;
+        padding: 80px;
+      }
+      footer {
+        border-top: 5px solid lightslategray;
+        background-color: black;
+        color: rgb(133, 159, 159);
+        padding: 80px;
+      }
+      ul {
+        list-style: none;
+      }
+      li {
+        margin: 10px;
+      }
+      .paragraph {
+        margin-left: 120px;
+        margin-bottom: 70px;
+        font-size: 20px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Resume Portfolio</h1>
+    <div class="shade-background">
+      <header>
+        <div class="brand-name">NETFLIX</div>
+        <div class="login-group">
+          <div class="input-group">
+            <span class="bi bi-globe input-group-text"></span>
+            <select class="form-select">
+              <option>Languages</option>
+              <option>English</option>
+              <option>हिन्दी</option>
+              <option>తెలుగు</option>
+              <option>Tamil</option>
+              <option>Marati</option>
+              <option>Malyalam</option>
+            </select>
+          </div>
+          <button class="btn btn-danger">Login</button>
+        </div>
+      </header>
+      <section>
+        <main>
+          <h1>Unlimited movies, TV shows and more.</h1>
+          <h5>Watch anywhere. Cancel anywhere.</h5>
+          <p class="mt-4">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <div class="input-group input-group-lg">
+            <input
+              type="email"
+              name="email"
+              placeholder="Email address"
+              class="form-control"
+            />
+            <button class="btn btn-danger">
+              Get Started<span class="bi bi-chevron-right"></span>
+            </button>
+          </div>
+        </main>
+      </section>
+    </div>
+    <div class="inter-page">
+      <div class="inner-content">
+        <div>
+          <h1>Enjoy on your TV.</h1>
+          <h3>
+            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+            players and more.
+          </h3>
+        </div>
+        <div algin="center">
+          <img src="Public/Images/N-1.png" width="450" height="300" />
+        </div>
+      </div>
+    </div>
+    <div class="inter-page">
+      <div class="inner-content">
+        <div align="center">
+          <img src="Public/Images/N-2.jpg" width="450" height="300" />
+        </div>
+        <div>
+          <h1>Download your shows to watch offline.</h1>
+          <h3>
+            Save your favourites easily and always have something to watch.
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="inter-page">
+      <div class="inner-content">
+        <div>
+          <h1>Watch everywhere.</h1>
+          <h3>
+            Stream unlimited movies and TV shows on your phone, tablet,laptop
+            and Television
+          </h3>
+        </div>
+        <div align="center">
+          <img src="Public/Images/N-3.png" width="450" height="300" />
+        </div>
+      </div>
+    </div>
+    <div class="inter-page">
+      <div class="inner-content">
+        <div align="center">
+          <img src="Public/Images/N-4.png" width="450" height="300" />
+        </div>
+        <div>
+          <h1>Download your shows to watch offline.</h1>
+          <h3>
+            Save your favourites easily and always have something to watch.
+          </h3>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="paragraph">
+        <p>Questions? Call 000-800-040-1843</p>
+      </div>
+
+      <div class="bottom">
+        <div class="mr-4">
+          <ul>
+            <li>FAQ</li>
+            <li>Investor relations</li>
+            <li>Privacy</li>
+            <li>Speed Test</li>
+          <li
+            <div class="input-group">
+              <span class="bi bi-globe input-group-text"></span>
+              <select class="form-select">
+                <option>English</option>
+                <option>हिन्दी</option>
+                <option>తెలుగు</option>
+                <option>Tamil</option>
+                <option>Malyalam</option>
+                 <option>Marati</option>
+              </select>
+            </div>
+           </li>
+           <li>Netflix India</li>
+          </ul>
+        <div class="ml-4">
+            <ul>
+                <li>Help Center</li>
+                <li>Jobs</li>
+                <li>Cookies Preferences</li>
+                <li>Legal Notice</li>
+            </ul>
+        </div>
+        <div class="mr-4">
+            <ul>
+                <li>Account</li>
+                <li>Ways to Watch</li>
+                <li>Corporate Information</li>
+                <li>Only on Netflix</li>
+            </ul>
+        </div>
+        <div class="ml-4">
+            <ul>
+                <li>Media Centre</li>
+                <li>Terms of use</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+    </div>
+    </footer>
   </body>
 </html>
